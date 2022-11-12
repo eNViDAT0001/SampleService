@@ -1,0 +1,37 @@
+# Convention of key: camelCase, supports alphanumeric and multiple "." sign.
+errMsgInvalidParamGeneral: "Invalid parameters."
+errMsgReloadConfigGeneral: "Can not reload config."
+errMsgGetMasterDataGeneral: "Can not get master data."
+errMsgInvalidLoginGeneral: "Invalid login."
+
+errMsgInvalidParam: "%s is invalid."
+errMsgRequired: "%s is required item."
+errMsgInvalidType: "%s type is invalid."
+
+
+errMsgMonthOutOfRange: "invalid target_month by wrong format."
+errMsgInitPayrollInPast: "can not init payroll in the past."
+errMsgInitPayrollInFuture: "can not init payroll in the future."
+errMsgInitPayrollUnknownErr: "can not init payroll with unknown error."
+
+errConvert: "can not convert [%s]"
+errDatabase: "database err, DML command [%s] table name [%s]"
+errNullStorageData: "data is not exist in storage, [%s]"
+errExport: "can not export [%s]"
+errS3Service: "s3 service fail [%s]"
+errFilesystem: "file system fail [%s]"
+errNotLatestBonus: "can not reset bonus with nthBonus = [%s], latest nthBonus = [%s]"
+errNotLatestPayroll: "can not reset payroll with targetMonth = [%s], latest targetMonth = [%s]"
+errOutOfPermission: "request record is out of scope corporation [%s] targetYear [%s]"
+errBonusExceed: "can not create more 6 times bonus"
+errRecordNotFound: "record not found, [%s]"
+errRecordBusy: "other operator is processing"
+errMissingParam: "missing param [%s]"
+errNotInitBeforeSubmit: "must init before submit"
+errIdNotValid: "can not update record that id == 0"
+errStatusNotProcessed: "this payroll is not processed"
+errHttpRequest: "can not send http request to takumi, [%s] "
+
+token.clientKey: client_key
+token.userId: user_id
+token.refreshToken: refresh_token

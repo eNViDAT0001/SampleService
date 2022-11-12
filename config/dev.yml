@@ -1,0 +1,16 @@
+server:
+  AppVersion: 1.0.0
+  Port: :8080
+  Mode: Development
+  JwtSecretKey: secretkey
+  ReadTimeout: 5
+  WriteTimeout: 5
+  Debug: true
+
+mysql:
+  MySQLHost: clean_architecture_db_mysql
+  MySQLPort: 3306
+  MySQLUser: test
+  MySQLPassword: 12345678
+  MySQLDbname: clean_architecture
+  MySQLSSLMode: false
